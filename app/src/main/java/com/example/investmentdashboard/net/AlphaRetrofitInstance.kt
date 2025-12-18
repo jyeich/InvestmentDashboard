@@ -3,7 +3,7 @@ package com.example.investmentdashboard.net
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-object RetrofitInstance {
+object AlphaRetrofitInstance {
     private const val BASE_URL = "https://www.alphavantage.co/"
 
     val api: AlphaVantageApi by lazy {

@@ -11,3 +11,5 @@ data class GlobalQuote(
 data class StockResponse(
     @SerializedName("Global Quote") val globalQuote: GlobalQuote
 )
+
+

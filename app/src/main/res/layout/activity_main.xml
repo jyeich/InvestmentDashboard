@@ -25,4 +25,26 @@
         android:layout_height="wrap_content"
         android:textSize="18sp"
         android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/timeSeriesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time Series"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/stockIntradayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intraday"
+        android:layout_marginTop="8dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"/>
+
 </LinearLayout>
